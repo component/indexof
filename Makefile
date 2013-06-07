@@ -1,10 +1,13 @@
 build: components index.js
-	@component build
+	@component build --dev
 
 components:
-	@component install
+	@component install --dev
 
 clean:
 	rm -fr build components template.js
 
-.PHONY: clean
+test:
+	@open test/index.html
+
+.PHONY: clean test
