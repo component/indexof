@@ -2,10 +2,18 @@
   "name": "indexof-component",
   "version": "0.0.1",
   "description": "Microsoft sucks",
-  "keywords": ["index", "array", "indexOf"],
+  "keywords": [
+    "index",
+    "array",
+    "indexOf"
+  ],
   "component": {
     "scripts": {
       "indexof/index.js": "index.js"
     }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/component/indexof.git"
   }
 }
